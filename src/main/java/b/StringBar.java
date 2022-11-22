@@ -15,5 +15,8 @@ public class StringBar extends Bar {
         this.happyHour = false;
         this.notifyObservers();
     }
+    public void order( StringDrink drink, StringRecipe recipe){
+        recipe.mix(drink);
+    }
 
 }
